@@ -1,0 +1,311 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e1f3ff;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-family: "Times", serif;
+}
+
+li {
+  list-style: none;
+}
+
+footer {
+  background-color: #3498db;
+}
+footer .connection a {
+  text-decoration: none;
+  color: white;
+}
+footer .connection a:hover {
+  color: white;
+}
+footer .sosial li {
+  padding: 2% 3%;
+  border-radius: 100%;
+}
+footer .sosial li a {
+  text-decoration: none;
+  color: white;
+}
+footer .sosial .facebook:hover {
+  background-color: #4064ad;
+}
+footer .sosial .instagram:hover {
+  background-image: linear-gradient(to bottom right, #4d34e9, #e22665, #edcc05);
+}
+footer .sosial .youtube:hover {
+  background-color: #f20000;
+}
+footer .sosial .linkedin:hover {
+  background-color: #0074b0;
+}
+
+header {
+  background-color: #3498db;
+  position: sticky !important;
+  z-index: 8;
+  top: 0;
+}
+header img {
+  width: 60%;
+  height: 4.5em;
+}
+header .collapse {
+  background-color: #3498db !important;
+}
+header .collapse .navbar-nav li a {
+  font-weight: bold;
+  color: white !important;
+}
+header .collapse .navbar-nav li a:hover {
+  background-color: #2C80B8;
+}
+
+.advertising_part {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.advertising_part_right {
+  background-attachment: fixed;
+  background-size: contain;
+}
+
+.about_text p {
+  margin: auto;
+  width: 95%;
+}
+
+video {
+  width: 60%;
+}
+
+.account_cart img {
+  width: 100%;
+  height: 20em;
+}
+
+.rezume_picture img {
+  width: 100%;
+  height: 25em;
+}
+
+.rezume_text {
+  text-align: justify;
+}
+
+.law_title a:hover {
+  text-decoration: none;
+}
+
+.container_login {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  position: relative;
+  z-index: 1;
+}
+.container_login .text_password {
+  color: black;
+}
+.container_login .text_password a {
+  color: #041b38;
+}
+.container_login input::-moz-placeholder {
+  color: black;
+}
+.container_login input:-ms-input-placeholder {
+  color: black;
+}
+.container_login input::placeholder {
+  color: black;
+}
+.container_login .general_login {
+  width: 33em;
+  border-radius: 0.6em;
+  overflow: hidden;
+  padding: 3.5em 3.5em 2.2em 3.5em;
+  background: #3498db;
+}
+.container_login .general_login .login_form {
+  width: 100%;
+}
+.container_login .general_login .login_form .login_form_title {
+  font-size: 2em;
+  line-height: 1.2;
+  text-align: center;
+  display: block;
+}
+.container_login .general_login .login_form .form_group {
+  width: 100%;
+  position: relative;
+  border: 0.1em solid #0a4791;
+  margin-bottom: 1.8em;
+}
+.container_login .general_login .login_form .form_group .fa-file-image {
+  font-size: 2em;
+}
+.container_login .general_login .login_form .form_group .input_form {
+  outline: none;
+  border: none;
+  font-size: 1em;
+  line-height: 1.2;
+  display: block;
+  width: 100%;
+  color: black;
+  height: 3em;
+  background: transparent;
+}
+.container_login .general_login .login_form .form_group select {
+  border: none;
+  background-color: transparent;
+}
+.container_login .general_login .login_form .form_group input[type=number] {
+  background-color: transparent;
+  border-color: transparent;
+  color: black;
+}
+.container_login .general_login .login_form .form_group input::-webkit-outer-spin-button,
+.container_login .general_login .login_form .form_group input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.container_login .general_login .login_form .form_group .input-group-text {
+  background-color: transparent;
+}
+.container_login .general_login .login_form .form_group textarea {
+  resize: none;
+  width: 100%;
+  background-color: #3498db;
+  border: 1px solid transparent;
+}
+.container_login .general_login .login_form .form_group textarea::-moz-placeholder {
+  color: black;
+  border: none;
+}
+.container_login .general_login .login_form .form_group textarea:-ms-input-placeholder {
+  color: black;
+  border: none;
+}
+.container_login .general_login .login_form .form_group textarea::placeholder {
+  color: black;
+  border: none;
+}
+.container_login .general_login .login_form .login_form_enter {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container_login .general_login .login_form .login_form_enter .login_btn_form {
+  border: none;
+  font-size: 1em;
+  color: #ffffff;
+  line-height: 1.2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1.4em;
+  min-width: 1.75em;
+  height: 3em;
+  border-radius: 1.6em;
+  position: relative;
+  z-index: 1;
+}
+.container_login .general_login .login_form .login_form_enter .login_btn_form:hover:before {
+  opacity: 0;
+}
+
+.salary {
+  width: 20%;
+  height: 1.5em;
+}
+
+.pagination {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.pagination ul {
+  margin: auto;
+}
+.pagination ul li {
+  text-align: center;
+  display: inline;
+  border: 1px solid #3498db;
+  padding: 0.6em 0.7em;
+}
+.pagination ul li a:hover {
+  text-decoration: none;
+}
+
+.job_detail th {
+  width: 70%;
+}
+
+.connection_detail th {
+  width: 63%;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.base_card h5 {
+  width: 70%;
+}
+
+@media only screen and (max-width: 1200px) {
+  header {
+    font-size: 0.85em;
+  }
+}
+@media only screen and (max-width: 600px) {
+  header img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .salary {
+    width: 30%;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .salary {
+    width: 30%;
+    font-size: 0.9em;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .general_login {
+    padding: 3.5em 1em 2.3em 1em;
+  }
+}
+@media only screen and (min-width: 580px) {
+  .base_card h5 {
+    width: 60%;
+  }
+}/*# sourceMappingURL=TapMühasib.css.map */

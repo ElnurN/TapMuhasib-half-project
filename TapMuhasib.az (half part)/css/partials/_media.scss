@@ -1,0 +1,39 @@
+@media only screen and (max-width: 1200px) {
+    header {
+        font-size: 0.85em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        img {
+            width: 100%;
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .salary {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .salary {
+        width: 30%;
+        font-size: 0.9em;
+    }
+}
+@media only screen and(max-width: 576px) {
+    .general_login {
+        padding: 3.5em 1em 2.3em 1em;
+    }
+}
+
+@media only screen and (min-width: 580px) {
+    .base_card {
+        h5 {
+            width: 60%;
+        }
+    }
+}
